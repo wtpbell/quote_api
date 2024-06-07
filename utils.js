@@ -12,3 +12,4 @@ export const findIndexByQuote = (id, arr) => {
   const itemToBeSearched = findQuoteById(id, arr);
   return arr.indexOf(itemToBeSearched);
 }
+
